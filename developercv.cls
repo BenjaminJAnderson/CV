@@ -1,27 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Developer CV
-% LaTeX Class
-% Version 1.0 (28/1/19)
-%
-% This class originates from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
-% Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	CLASS CONFIGURATION
 %----------------------------------------------------------------------------------------
 
-\NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{developercv}[2019/01/28 Developer CV class v1.0]
+\ProvidesClass{developercv}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}} % Pass through any options to the base class
 \ProcessOptions\relax % Process given options
@@ -33,13 +14,9 @@
 %----------------------------------------------------------------------------------------
 
 \setlength{\parindent}{0mm} % Suppress paragraph indentation
-
 \usepackage[hidelinks]{hyperref} % Required for links but hide the default boxes around links
-
 \newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.} % Dummy text
-
 \pagestyle{empty} % No headers or footers
-
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
 %----------------------------------------------------------------------------------------
@@ -192,25 +169,83 @@
 	\end{longtable}
 }
 
-\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
-	\parbox[t]{0.175\textwidth}
-	{% 17.5% of the text width of the page
-		#1 % Leftmost entry date(s) text
-	}%
-	\parbox[t]{0.825\textwidth} % 82.5% of the text width of the page
+\newcommand{\entry}[4]
+{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.9\textwidth} % 82.5% of the text width of the page
 	{
 		\textbf{#2}% Entry heading text
 		\hfill% Horizontal whitespace
 		\textbf{\textcolor{black}{#3}}\\% Right-aligned entry qualifier text
 		#4 % Entry description text
-	}\\\\}
-	% \parbox[t]{0.175\textwidth}
-	% {% 17.5% of the text width of the page
-	% 	Test % Leftmost entry date(s) text
-	% }%
+	}
+	\parbox[t]{0.1\textwidth}
+	{% 17.5% of the text width of the page
+		\hfill
+		#1 % Leftmost entry date(s) text
+	}\\\\
+}
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
+%----------------------------------------------------------------------------------------
+%	3 COL ENTRY LIST
+%----------------------------------------------------------------------------------------
+
+\usepackage{longtable} % Required for tables that span multiple pages
+\usepackage{qrcode}
+\setlength{\LTpre}{0pt} % Remove default whitespace before longtable
+\setlength{\LTpost}{0pt} % Remove default whitespace after longtable
+
+\setlength{\tabcolsep}{0pt} % No spacing between table columns
+
+% Environment to hold a new list of entries
+\newenvironment{Colentrylist}{
+	\begin{longtable}[H]{l l l}
+}{
+	\end{longtable}
+}
+
+\newcommand{\Colentry}[8]
+{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.25\textwidth}
+	{
+		\textbf{#1}% 1st Column Title
+		\hfill% Horizontal whitespace
+		\textbf{\textcolor{black}{#2}}\\% Right-aligned entry qualifier text
+		#3 % Entry description text
+	}
+	\parbox[t]{0.10\textwidth}
+	{
+		\hfill
+		#4 % Leftmost entry date(s) text
+	}
+	\parbox[t]{0.25\textwidth}
+	{
+		\textbf{#5}% 2nd Column Title
+		\hfill% Horizontal whitespace
+		\textbf{\textcolor{black}{#6}}\\% Right-aligned entry qualifier text
+		#7 % Entry description text
+	}
+	\parbox[t]{0.10\textwidth} % 82.5% of the text width of the page
+	{
+		\hfill
+		#8 % Leftmost entry date(s) text
+	}
+	% \parbox[t]{0.25\textwidth}
+	% {
+	% 	\textbf{#9}% 1st Column Title
+	% 	\hfill% Horizontal whitespace
+	% 	\textbf{\textcolor{black}{#10}}\\% Right-aligned entry qualifier text
+	% 	#11 % Entry description text
+	% }
+	% \parbox[t]{0.05\textwidth}
+	% {
+	% 	\hfill
+	% 	#12 % Leftmost entry date(s) text
+	% }
+	\\\\
+}%
 
 %----------------------------------------------------------------------------------------
 %	QR ENTRY LIST
@@ -230,17 +265,16 @@
 	\end{longtable}
 }
 
-\newcommand{\QRentry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+\newcommand{\QRentry}[3]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
 	\parbox[t]{0.9\textwidth}
 	{
-		\textbf{#1}% Entry heading text
+		\textbf{#1}\\% Entry heading text
 		\hfill% Horizontal whitespace
-		\textbf{\textcolor{black}{#2}}\\% Right-aligned entry qualifier text
-		#3 % Entry description text
+		#2 % Entry description text
 	}
 	\parbox[t]{0.1\textwidth} % 82.5% of the text width of the page
 	{
 		\vspace{0.15cm}% Horizontal whitespace
 		\hfill% Horizontal whitespace
-		\qrcode[hyperlink,height=0.5in]{#4}
+		\qrcode[hyperlink,height=0.5in]{#3}
 	}\\\\}
