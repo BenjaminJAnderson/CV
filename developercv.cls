@@ -157,6 +157,7 @@
 
 \usepackage{longtable} % Required for tables that span multiple pages
 \usepackage{qrcode}
+\usepackage{tabto}
 \setlength{\LTpre}{0pt} % Remove default whitespace before longtable
 \setlength{\LTpost}{0pt} % Remove default whitespace after longtable
 
@@ -167,6 +168,23 @@
 	\begin{longtable}[H]{l l}
 }{
 	\end{longtable}
+}
+
+\newcommand{\halfentry}[4]
+{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.82\textwidth} % 82.5% of the text width of the page
+	{
+		\textbf{#2}% Entry heading text
+		\hfill% Horizontal whitespace
+		\textbf{\textcolor{black}{#3}}\\% Right-aligned entry qualifier text
+		#4 % Entry description text
+	}
+	\hfill
+	\parbox[t]{0.17\textwidth}
+	{% 17.5% of the text width of the page
+		\hfill
+		#1 % Leftmost entry date(s) text
+	}\\\\
 }
 
 \newcommand{\entry}[4]
@@ -185,87 +203,8 @@
 	}\\\\
 }
 
-% Command to output a separator slash between lists, e.g. '  /  '
-\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
-
-%----------------------------------------------------------------------------------------
-%	3 COL ENTRY LIST
-%----------------------------------------------------------------------------------------
-
-\usepackage{longtable} % Required for tables that span multiple pages
-\usepackage{qrcode}
-\setlength{\LTpre}{0pt} % Remove default whitespace before longtable
-\setlength{\LTpost}{0pt} % Remove default whitespace after longtable
-
-\setlength{\tabcolsep}{0pt} % No spacing between table columns
-
-% Environment to hold a new list of entries
-\newenvironment{Colentrylist}{
-	\begin{longtable}[H]{l l l}
-}{
-	\end{longtable}
-}
-
-\newcommand{\Colentry}[8]
-{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
-	\parbox[t]{0.25\textwidth}
-	{
-		\textbf{#1}% 1st Column Title
-		\hfill% Horizontal whitespace
-		\textbf{\textcolor{black}{#2}}\\% Right-aligned entry qualifier text
-		#3 % Entry description text
-	}
-	\parbox[t]{0.10\textwidth}
-	{
-		\hfill
-		#4 % Leftmost entry date(s) text
-	}
-	\parbox[t]{0.25\textwidth}
-	{
-		\textbf{#5}% 2nd Column Title
-		\hfill% Horizontal whitespace
-		\textbf{\textcolor{black}{#6}}\\% Right-aligned entry qualifier text
-		#7 % Entry description text
-	}
-	\parbox[t]{0.10\textwidth} % 82.5% of the text width of the page
-	{
-		\hfill
-		#8 % Leftmost entry date(s) text
-	}
-	% \parbox[t]{0.25\textwidth}
-	% {
-	% 	\textbf{#9}% 1st Column Title
-	% 	\hfill% Horizontal whitespace
-	% 	\textbf{\textcolor{black}{#10}}\\% Right-aligned entry qualifier text
-	% 	#11 % Entry description text
-	% }
-	% \parbox[t]{0.05\textwidth}
-	% {
-	% 	\hfill
-	% 	#12 % Leftmost entry date(s) text
-	% }
-	\\\\
-}%
-
-%----------------------------------------------------------------------------------------
-%	QR ENTRY LIST
-%----------------------------------------------------------------------------------------
-
-\usepackage{longtable} % Required for tables that span multiple pages
-\usepackage{qrcode}
-\setlength{\LTpre}{0pt} % Remove default whitespace before longtable
-\setlength{\LTpost}{0pt} % Remove default whitespace after longtable
-
-\setlength{\tabcolsep}{0pt} % No spacing between table columns
-
-% Environment to hold a new list of entries
-\newenvironment{QRentrylist}{
-	\begin{longtable}[H]{l l}
-}{
-	\end{longtable}
-}
-
-\newcommand{\QRentry}[3]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+\newcommand{\QRentry}[3]% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+{
 	\parbox[t]{0.9\textwidth}
 	{
 		\textbf{#1}\\% Entry heading text
@@ -277,4 +216,9 @@
 		\vspace{0.15cm}% Horizontal whitespace
 		\hfill% Horizontal whitespace
 		\qrcode[hyperlink,height=0.5in]{#3}
-	}\\\\}
+	}\\\\
+}
+
+% Command to output a separator slash between lists, e.g. '  /  '
+\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
