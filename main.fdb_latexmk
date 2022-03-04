@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1646413193 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1646413268
+["pdflatex"] 1646414177 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1646414178
   "/etc/texmf/web2c/texmf.cnf" 1645543248 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/benjamin/Documents/CV/main.aux" 1646413193 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 ""
-  "/home/benjamin/Documents/CV/main.tex" 1646413267 4852 0073e773c4959f245a00a0becb50f8f3 ""
+  "/home/benjamin/Documents/CV/main.aux" 1646414178 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 ""
+  "/home/benjamin/Documents/CV/main.tex" 1646414177 4943 0a0b84225ef33564c8b1c6f2d335ee1f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -181,13 +181,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1645543299 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1645543313 8272951 e65983aa5618e4b082ca3bd7cc8e7e47 ""
   "developercv.cls" 1646413054 8132 2c3ec191ebcb636825664a619eaf183b ""
-  "main.aux" 1646413193 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 "pdflatex"
-  "main.out" 1646413193 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1646413267 4852 0073e773c4959f245a00a0becb50f8f3 ""
+  "main.aux" 1646414178 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 "pdflatex"
+  "main.out" 1646414178 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1646414177 4943 0a0b84225ef33564c8b1c6f2d335ee1f ""
   (generated)
-  "/home/benjamin/Documents/CV/main.log"
-  "main.aux"
-  "main.pdf"
   "main.log"
+  "main.pdf"
   "main.out"
+  "main.aux"
   "/home/benjamin/Documents/CV/main.pdf"
+  "/home/benjamin/Documents/CV/main.log"
