@@ -180,7 +180,7 @@
 		#4 % Entry description text
 	}
 	\hfill
-	\parbox[t]{0.17\textwidth}
+	\parbox[t]{0.15\textwidth}
 	{% 17.5% of the text width of the page
 		\hfill
 		#1 % Leftmost entry date(s) text
