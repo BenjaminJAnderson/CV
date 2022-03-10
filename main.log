@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.22)  9 MAR 2022 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.22)  10 MAR 2022 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,8 +621,8 @@ Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count308
 \l__pdf_internal_box=\box82
-) (/home/benjamin/Documents/CV/main.aux <Reading QR code for "engiebenji.com/CUBE" at level 2-Q from aux file.>
-<Reading QR code for "engiebenji.com/ORTHODOX" at level 2-M from aux file.>
+) (/home/benjamin/Documents/CV/main.aux <Reading QR code for "https://engiebenji.com/CUBE" at level 3-Q from aux file.>
+<Reading QR code for "https://engiebenji.com/ORTHODOX" at level 3-Q from aux file.>
 )
 \openout1 = `main.aux'.
 
@@ -775,17 +775,19 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 58
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) 
 
-<QR code requested for "engiebenji.com/CUBE" in version 0-M.>
+<QR code requested for "https://engiebenji.com/CUBE" in version 0-M.>
 <Error-correction level increased from M to Q at no cost.>
-<Copying the QR code for "engiebenji.com/CUBE" in version 2-Q as previously calculated.>
+<Copying the QR code for "https://engiebenji.com/CUBE" in version 3-Q as previously calculated.>
 
 
-<QR code requested for "engiebenji.com/ORTHODOX" in version 0-M.>
-<Copying the QR code for "engiebenji.com/ORTHODOX" in version 2-M as previously calculated.>
+<QR code requested for "https://engiebenji.com/ORTHODOX" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+<Copying the QR code for "https://engiebenji.com/ORTHODOX" in version 3-Q as previously calculated.>
 
 
-<QR code requested for "engiebenji.com/ORTHODOX" in version 0-M.>
-<Copying the QR code for "engiebenji.com/ORTHODOX" in version 2-M as previously calculated.>
+<QR code requested for "https://engiebenji.com/ORTHODOX" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+<Copying the QR code for "https://engiebenji.com/ORTHODOX" in version 3-Q as previously calculated.>
 
 Overfull \hbox (2.295pt too wide) in alignment at lines 54--67
  [] [] 
@@ -797,77 +799,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 
-Overfull \hbox (2.295pt too wide) in alignment at lines 74--104
+Overfull \hbox (2.295pt too wide) in alignment at lines 74--113
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 122--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--147
+Underfull \hbox (badness 10000) in paragraph at lines 122--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--147
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Overfull \hbox (1.06892pt too wide) in paragraph at lines 109--148
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
+
+ []
+
+
+Overfull \hbox (1.06892pt too wide) in paragraph at lines 118--161
 [][] |  [] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
- (/home/benjamin/Documents/CV/main.aux <Reading QR code for "engiebenji.com/CUBE" at level 2-Q from aux file.>
-<Reading QR code for "engiebenji.com/ORTHODOX" at level 2-M from aux file.>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+ (/home/benjamin/Documents/CV/main.aux <Reading QR code for "https://engiebenji.com/CUBE" at level 3-Q from aux file.>
+<Reading QR code for "https://engiebenji.com/ORTHODOX" at level 3-Q from aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
  21809 strings out of 481239
- 420974 string characters out of 5920377
- 747379 words of memory out of 5000000
+ 421006 string characters out of 5920377
+ 768819 words of memory out of 5000000
  36645 multiletter control sequences out of 15000+600000
  617339 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,71p,777b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on /home/benjamin/Documents/CV/main.pdf (1 page, 96424 bytes).
+ 68i,8n,71p,1009b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on /home/benjamin/Documents/CV/main.pdf (1 page, 102825 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -309,4 +309,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb

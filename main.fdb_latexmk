@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1646846508 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1646846508
+["pdflatex"] 1646931526 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1646931526
   "/etc/texmf/web2c/texmf.cnf" 1645543248 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/benjamin/Documents/CV/main.aux" 1646846508 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 ""
-  "/home/benjamin/Documents/CV/main.tex" 1646846507 5806 2e08e7dba805b1bf242d4f8bca021933 ""
+  "/home/benjamin/Documents/CV/main.aux" 1646931526 2780 fab0e85d101aec04e3426eca13591862 ""
+  "/home/benjamin/Documents/CV/main.tex" 1646931525 6869 5f25347d338d1aacf4a261e4277e9656 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -27,6 +27,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm" 1463430686 1360 76c648952c3cfb458d3ca1d9dde7e9bf ""
   "/usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb" 1407086865 95654 51073b0b9b80cb73a0ef015e8e78ff70 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb" 1407086865 90961 1cd5078e3f1d1832f362039d15fc8827 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1248133631 32442 c975af247b6702f7ca0c299af3616b80 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463430686 173219 54847ac27638e1e28852258f5be2fa20 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Bold-tlf-t1.vf" 1407086865 1760 7df6bb44cf2bb7ec7ca13940c05cd411 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/impallari/raleway/Raleway-Regular-tlf-t1.vf" 1407086865 1764 09704427a37456539dd12f4d95d60f20 ""
@@ -181,13 +182,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1645543299 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1645543313 8272951 e65983aa5618e4b082ca3bd7cc8e7e47 ""
   "developercv.cls" 1646845562 8132 03f7a08cb63338c033ed98eef96ba566 ""
-  "main.aux" 1646846508 2332 c4b6bd7c9f684fcf91c06b5cbe5305a5 "pdflatex"
-  "main.out" 1646846508 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1646846507 5806 2e08e7dba805b1bf242d4f8bca021933 ""
+  "main.aux" 1646931526 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
+  "main.out" 1646931526 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1646931525 6869 5f25347d338d1aacf4a261e4277e9656 ""
   (generated)
-  "main.out"
   "/home/benjamin/Documents/CV/main.log"
   "main.aux"
   "/home/benjamin/Documents/CV/main.pdf"
   "main.log"
   "main.pdf"
+  "main.out"
