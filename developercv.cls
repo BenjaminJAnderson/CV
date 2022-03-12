@@ -170,7 +170,7 @@
 	\end{longtable}
 }
 
-\newcommand{\halfentry}[4]
+\newcommand{\halfentrydate}[4]
 {% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
 	\parbox[t]{0.82\textwidth} % 82.5% of the text width of the page
 	{
@@ -184,6 +184,17 @@
 	{% 17.5% of the text width of the page
 		\hfill
 		#1 % Leftmost entry date(s) text
+	}\\\\
+}
+
+\newcommand{\halfentry}[3]
+{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{1\textwidth} % 82.5% of the text width of the page
+	{
+		\textbf{#1}% Entry heading text
+		\hfill% Horizontal whitespace
+		\textbf{\textcolor{black}{#2}}\\% Right-aligned entry qualifier text
+		#3 % Entry description text
 	}\\\\
 }
 
