@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1661786879 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1661786942
+["pdflatex"] 1661792741 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1661792968
   "/etc/texmf/web2c/texmf.cnf" 1638472594 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/benjamin/Documents/CV/main.aux" 1661786879 2780 fab0e85d101aec04e3426eca13591862 ""
-  "/home/benjamin/Documents/CV/main.tex" 1661786941 7309 bea798895927698ef5554526b7207d5b ""
+  "/home/benjamin/Documents/CV/main.aux" 1661792742 2780 fab0e85d101aec04e3426eca13591862 ""
+  "/home/benjamin/Documents/CV/main.tex" 1661792967 7092 17aff731324dcd73b9d822cff7494ad5 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -181,14 +181,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1646531334 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1646531353 8255642 0a12622f474e4882cd5953e9b3391acd ""
-  "developercv.cls" 1647101774 8589 bb2630773b593f370ee4d57e0e1aa7e3 ""
-  "main.aux" 1661786879 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
-  "main.out" 1661786879 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1661786941 7309 bea798895927698ef5554526b7207d5b ""
+  "developercv.cls" 1661787340 8589 bb2630773b593f370ee4d57e0e1aa7e3 ""
+  "main.aux" 1661792742 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
+  "main.out" 1661792741 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1661792967 7092 17aff731324dcd73b9d822cff7494ad5 ""
   (generated)
-  "main.pdf"
-  "main.log"
   "/home/benjamin/Documents/CV/main.pdf"
   "main.out"
-  "main.aux"
+  "main.pdf"
   "/home/benjamin/Documents/CV/main.log"
+  "main.log"
+  "main.aux"
