@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1647103670 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1647103671
+["pdflatex"] 1661786550 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1661786598
   "/etc/texmf/web2c/texmf.cnf" 1638472594 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/benjamin/Documents/CV/main.aux" 1647103671 2780 fab0e85d101aec04e3426eca13591862 ""
-  "/home/benjamin/Documents/CV/main.tex" 1647103670 6913 779e1c1bd3bcd07a415613e4bed12c60 ""
+  "/home/benjamin/Documents/CV/main.aux" 1661786550 2780 fab0e85d101aec04e3426eca13591862 ""
+  "/home/benjamin/Documents/CV/main.tex" 1661786597 7247 12b319ee954f390ee9aa0f4e961b42ba ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -182,13 +182,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1646531334 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1646531353 8255642 0a12622f474e4882cd5953e9b3391acd ""
   "developercv.cls" 1647101774 8589 bb2630773b593f370ee4d57e0e1aa7e3 ""
-  "main.aux" 1647103671 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
-  "main.out" 1647103671 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1647103670 6913 779e1c1bd3bcd07a415613e4bed12c60 ""
+  "main.aux" 1661786550 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
+  "main.out" 1661786550 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1661786597 7247 12b319ee954f390ee9aa0f4e961b42ba ""
   (generated)
-  "main.log"
   "/home/benjamin/Documents/CV/main.log"
-  "main.out"
-  "main.pdf"
-  "main.aux"
   "/home/benjamin/Documents/CV/main.pdf"
+  "main.pdf"
+  "main.log"
+  "main.out"
+  "main.aux"
