@@ -183,7 +183,7 @@
 	\parbox[t]{0.15\textwidth}
 	{% 17.5% of the text width of the page
 		\hfill
-		#1 % Leftmost entry date(s) text
+		\textcolor{white}{#1} % Leftmost entry date(s) text
 	}\\\\
 }
 
@@ -210,7 +210,7 @@
 	\parbox[t]{0.1\textwidth}
 	{% 17.5% of the text width of the page
 		\hfill
-		#1 % Leftmost entry date(s) text
+		\textcolor{white}{#1} % Leftmost entry date(s) text
 	}\\\\
 }
 
@@ -226,7 +226,7 @@
 	{
 		\vspace{0.15cm}% Horizontal whitespace
 		\hfill% Horizontal whitespace
-		\qrcode[hyperlink,height=0.5in]{#3}
+		\textcolor{white}{\qrcode[hyperlink,height=0.62in]{#3}}
 	}\\\\
 }
 

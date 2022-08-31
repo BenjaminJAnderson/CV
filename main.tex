@@ -4,6 +4,9 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{calc}
 \usepackage{enumitem}
 \setlist{nosep}
 %----------------------------------------------------------------------------------------
@@ -41,6 +44,10 @@
 %----------------------------------------------------------------------------------------
 %	PROJECTS
 %----------------------------------------------------------------------------------------
+\begin{tikzpicture}[remember picture,overlay]
+    \filldraw ($(current page.north east)+(-2.75,-5.7)$) rectangle (current page.south east);
+\end{tikzpicture}
+
 \cvsect{Projects}
 
 \begin{entrylist}
@@ -57,6 +64,7 @@
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
+
 \cvsect{Experience}
 
 \begin{entrylist}
@@ -69,6 +77,7 @@
 				\item[$\bullet$\hspace*{0.5cm}] Developed all the necessary python libraries to automate radiation pattern measurements in a custom anechoic chamber.
 				\item[$\bullet$\hspace*{0.5cm}] Translated proof of concept MATLAB code for phase tapering/beam steering a phased array antenna into working code on early prototype hardware.
 				\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented git repositories.
+				\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented git repositories.
 			\end{itemize}
 		}
 	\entry
@@ -78,7 +87,7 @@
 		{
 			\begin{itemize}
 				\item[$\bullet$\hspace*{0.5cm}] Developed a python library to communicate with a TEC controller over the serial protocol.
-				\item[$\bullet$\hspace*{0.5cm}] Developed a standalone program to produce failure analysis reports, saving countless engineering hours.
+				\item[$\bullet$\hspace*{0.5cm}] Designed a standalone program with PyQt to automatically produce failure analysis reports from data gathered by lab technicians, saving countless engineering hours on a repetitive manual task.
 				\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
 				\item[$\bullet$\hspace*{0.5cm}] Analysing reliability of devices with PAM4 / NRZ inspection, shear testing, electroluminescence inspection.
 			\end{itemize}
@@ -170,4 +179,5 @@
 			\hspace*{0.5cm}English\hfill B\newline
 		}
 \end{minipage}%
+
 \end{document}
