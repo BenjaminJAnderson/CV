@@ -4,6 +4,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{enumitem}
+\setlist{nosep}
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -17,7 +19,7 @@
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Benjamin}}}}}
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Anderson}}}}}
 	\vspace{6pt}
-	
+
 	{\huge Electronic Engineer}
 \end{minipage}
 \begin{minipage}[t]{0.365\textwidth} % 38% of the page width for the first row of icons
@@ -62,41 +64,47 @@
 		{2021-2022}
 		{RF Test Engineer}
 		{\href{https://Curvalux.com}{Curvalux}}
-		{
-			$\bullet$\hspace*{0.5cm}Developed driver for communicating with Keysight devices using pyVISA.\newline
-			$\bullet$\hspace*{0.5cm}Developed low level driver for a Beamformer IC.\newline
-			$\bullet$\hspace*{0.5cm}Developed a driver for controlling a heavy duty azimuth and elevation rotator.\newline
-			$\bullet$\hspace*{0.5cm}Automated radiation pattern measurements of antennas by combining my developed drivers.\newline
-			$\bullet$\hspace*{0.5cm}Learned how to professionally collaborate and document git repositories.
+		{	
+			\begin{itemize}
+				\item[$\bullet$\hspace*{0.5cm}] Developed all the necessary python libraries to automate radiation pattern measurements in a custom anechoic chamber.
+				\item[$\bullet$\hspace*{0.5cm}] Translated proof of concept MATLAB code for phase tapering/beam steering a phased array antenna into working code on early prototype hardware.
+				\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented git repositories.
+			\end{itemize}
 		}
 	\entry
 		{2019-2020}
 		{Research \& Development Engineer}
 		{\href{https://www.huawei.com/uk/contact-us}{Huawei}}
 		{
-			$\bullet$\hspace*{0.5cm}Developed a python library to communicate with a TEC controller over the serial protocol.\newline
-			$\bullet$\hspace*{0.5cm}Developed a standalone program to produce failure analysis reports, saving countless engineering hours.\newline
-			$\bullet$\hspace*{0.5cm}Presented weekly meetings to inform senior engineers of device failures and reliability.\newline
-			$\bullet$\hspace*{0.5cm}Analysing reliability of devices with PAM4 / NRZ inspection, shear testing, electroluminescence inspection.
+			\begin{itemize}
+				\item[$\bullet$\hspace*{0.5cm}] Developed a python library to communicate with a TEC controller over the serial protocol.
+				\item[$\bullet$\hspace*{0.5cm}] Developed a standalone program to produce failure analysis reports, saving countless engineering hours.
+				\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
+				\item[$\bullet$\hspace*{0.5cm}] Analysing reliability of devices with PAM4 / NRZ inspection, shear testing, electroluminescence inspection.
+			\end{itemize}
 		}
 		\entry
 		{2018-2019}
 		{Hardware Engineer}
 		{\href{https://avalonrov.wixsite.com/avalonrov}{Avalon}}
 		{
-			$\bullet$\hspace*{0.5cm}Tasked with designing and soldering the power management PCB.\newline
-			$\bullet$\hspace*{0.5cm}Had to regularly liaise with engineers from different disciplines to check compatibility.\newline
-			$\bullet$\hspace*{0.5cm}Manage my time effectively to balance my University work with Avalon work.
+			\begin{itemize}
+				\item[$\bullet$\hspace*{0.5cm}] Tasked with designing and soldering the power management PCB.
+				\item[$\bullet$\hspace*{0.5cm}] Regularly liaised with engineers from different disciplines to check compatibility.
+				\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
+				\item[$\bullet$\hspace*{0.5cm}] Managed my time effectively to balance commitments to University and Avalon.
+			\end{itemize}		
 		}
 		\entry
 		{2018-2019}
 		{Design Project}
 		{\href{https://www.sheffield.ac.uk/engineering/study/global-engineering-challenge}{Global Engineering Challenge}}
 		{
-			$\bullet$\hspace*{0.5cm}Tasked with designing mobile retina scanners to diagnose diseases in Kibera.\newline
-			$\bullet$\hspace*{0.5cm}Designed a program capable of recognising diseases based on symptoms in people's retina.\newline
-			$\bullet$\hspace*{0.5cm}Developed library to communicate with signal analysers to automate testing.\newline
-			$\bullet$\hspace*{0.5cm}Pitched the idea in front of a crowd of 30+ people, receiving questions for 10 minutes.
+			\begin{itemize}
+				\item[$\bullet$\hspace*{0.5cm}] Tasked with designing mobile retina scanners to diagnose diseases in Kibera.
+				\item[$\bullet$\hspace*{0.5cm}] Designed a program capable of recognising diseases based on symptoms in people's retina.
+				\item[$\bullet$\hspace*{0.5cm}] Pitched the idea in front of a crowd of 30+ people, receiving questions for 10 minutes.
+			\end{itemize}	
 		}	
 \end{entrylist}
 

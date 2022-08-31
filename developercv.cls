@@ -204,7 +204,7 @@
 	{
 		\textbf{#2}% Entry heading text
 		\hfill% Horizontal whitespace
-		\textbf{\textcolor{black}{#3}}\\% Right-aligned entry qualifier text
+		\textbf{\textcolor{black}{#3}}% Right-aligned entry qualifier text
 		#4 % Entry description text
 	}
 	\parbox[t]{0.1\textwidth}
