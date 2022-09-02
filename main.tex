@@ -1,183 +1,182 @@
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+	%----------------------------------------------------------------------------------------
+	%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+	%----------------------------------------------------------------------------------------
 
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
-\usepackage{tikz}
-\usetikzlibrary{tikzmark}
-\usetikzlibrary{calc}
-\usepackage{enumitem}
-\setlist{nosep}
-%----------------------------------------------------------------------------------------
+	\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+	\usepackage{tikz}
+	\usetikzlibrary{tikzmark}
+	\usetikzlibrary{calc}
+	\usepackage{enumitem}
+	\setlist{nosep}
+	%----------------------------------------------------------------------------------------
 
-\begin{document}
+	\begin{document}
 
-%----------------------------------------------------------------------------------------
-%	TITLE AND CONTACT INFORMATION
-%----------------------------------------------------------------------------------------
+	%----------------------------------------------------------------------------------------
+	%	TITLE AND CONTACT INFORMATION
+	%----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.365\textwidth} % 38% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Benjamin}}}}}
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Anderson}}}}}
-	\vspace{6pt}
+	\begin{minipage}[t]{0.365\textwidth} % 38% of the page width for name
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Benjamin}}}}}
+		\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Anderson}}}}}
+		\vspace{6pt}
 
-	{\huge Electronic Engineer}
-\end{minipage}
-\begin{minipage}[t]{0.365\textwidth} % 38% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\icon{Phone}{12}{+44 (0)7946 866 875}\\
-	\icon{At}{12}{\href{mailto:thebenjaminjanderson@gmail.com}{thebenjaminjanderson@gmail.com}}\\
-	\icon{MapMarker}{12}{London}\\	
-\end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+		{\huge Electronic Engineer}
+	\end{minipage}
+	\begin{minipage}[t]{0.365\textwidth} % 38% of the page width for the first row of icons
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		\icon{Phone}{12}{+44 (0)7946 866 875}\\
+		\icon{At}{12}{\href{mailto:thebenjaminjanderson@gmail.com}{thebenjaminjanderson@gmail.com}}\\
+		\icon{MapMarker}{12}{London}\\	
+	\end{minipage}
+	\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\icon{Globe}{12}{\href{https://engiebenji.com}{engiebenji.com}}\\
-	\icon{Twitter}{12}{\href{https://twitter.com/@engiebenji1999}{@engiebenji1999}}\\
-	\icon{Github}{12}{\href{https://github.com/benjaminjanderson}{/benjaminjanderson}}\\
-\end{minipage}
+		\icon{Globe}{12}{\href{https://engiebenji.com}{engiebenji.com}}\\
+		\icon{Twitter}{12}{\href{https://twitter.com/@engiebenji1999}{@engiebenji1999}}\\
+		\icon{Github}{12}{\href{https://github.com/benjaminjanderson}{/benjaminjanderson}}\\
+	\end{minipage}
 
-\vspace{0.5cm}
+	\vspace{0.5cm}
 
-%----------------------------------------------------------------------------------------
-%	PROJECTS
-%----------------------------------------------------------------------------------------
-% \begin{tikzpicture}[remember picture,overlay]
-%     \filldraw ($(current page.north east)+(-2.75,-5.7)$) rectangle (current page.south east);
-% \end{tikzpicture}
+	%----------------------------------------------------------------------------------------
+	%	PROJECTS
+	%----------------------------------------------------------------------------------------
+	% \begin{tikzpicture}[remember picture,overlay]
+	%     \filldraw ($(current page.north east)+(-2.75,-5.7)$) rectangle (current page.south east);
+	% \end{tikzpicture}
 
-\cvsect{Projects}
+	\cvsect{Projects}
 
-\begin{entrylist}
-	\QRentry
-		{CUBE}
-		{A handheld device comprising of 6 OLED screens for each face on a cube. This project required design of circuits for battery management and voltage regulation, 3D modelling of the frame, as well as efficient C code to run 6 screens and a 6 DOF sensor off an ESP32.\\ \texttt{KiCAD}\slashsep\texttt{FreeCAD}\slashsep\texttt{Git}}
-		{https://engiebenji.com/CUBE}
-	\QRentry
-		{Orthodox}
-		{A unique ortholinear keyboard, This project required custom designed keycaps to simplify the keyboards aesthetic, as well as hall effect sensors for certain keys to allow for analog keypresses, a custom driver had to be written to allow for seamless integration of the keyboard with computers \\\texttt{KiCAD}\slashsep\texttt{FreeCAD}\slashsep\texttt{OpenSCAD}\slashsep\texttt{Git}}
-		{https://engiebenji.com/ORTHODOX}
-\end{entrylist}
+	\begin{entrylist}
+		\QRentry
+			{CUBE}
+			{A handheld device comprising of 6 OLED screens for each face on a cube. This project required design of circuits for battery management and voltage regulation, 3D modelling of the frame, as well as efficient C code to run 6 screens and a 6 DOF sensor off an ESP32.\\ \texttt{KiCAD}\slashsep\texttt{FreeCAD}\slashsep\texttt{Git}}
+			{https://engiebenji.com/CUBE}
+		\QRentry
+			{Orthodox}
+			{A unique ortholinear keyboard, This project required custom designed keycaps to simplify the keyboards aesthetic, as well as hall effect sensors for certain keys to allow for analog keypresses, a custom driver had to be written to allow for seamless integration of the keyboard with computers \\\texttt{KiCAD}\slashsep\texttt{FreeCAD}\slashsep\texttt{OpenSCAD}\slashsep\texttt{Git}}
+			{https://engiebenji.com/ORTHODOX}
+	\end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	EXPERIENCE
-%----------------------------------------------------------------------------------------
+	%----------------------------------------------------------------------------------------
+	%	EXPERIENCE
+	%----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+	\cvsect{Experience}
 
-\begin{entrylist}
-	\entry
-		{2021-2022}
-		{RF Test Engineer}
-		{\href{https://Curvalux.com}{Curvalux}}
-		{	
-			\begin{itemize}
-				\item[$\bullet$\hspace*{0.5cm}] Developed all the necessary python libraries to automate radiation pattern measurements in a custom anechoic chamber.
-				\item[$\bullet$\hspace*{0.5cm}] Translated proof of concept MATLAB code for phase tapering/beam steering a phased array antenna into working code on early prototype hardware.
-				\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented git repositories.
-				\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented git repositories.
-			\end{itemize}
-		}
-	\entry
-		{2019-2020}
-		{Research \& Development Engineer}
-		{\href{https://www.huawei.com/uk/contact-us}{Huawei}}
-		{
-			\begin{itemize}
-				\item[$\bullet$\hspace*{0.5cm}] Developed a python library to communicate with a TEC controller over the serial protocol.
-				\item[$\bullet$\hspace*{0.5cm}] Designed a standalone program with PyQt to automatically produce failure analysis reports from data gathered by lab technicians, saving countless engineering hours on a repetitive manual task.
-				\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
-				\item[$\bullet$\hspace*{0.5cm}] Analysing reliability of devices with PAM4 / NRZ inspection, shear testing, electroluminescence inspection.
-			\end{itemize}
-		}
+	\begin{entrylist}
 		\entry
-		{2018-2019}
-		{Hardware Engineer}
-		{\href{https://avalonrov.wixsite.com/avalonrov}{Avalon}}
-		{
-			\begin{itemize}
-				\item[$\bullet$\hspace*{0.5cm}] Tasked with designing and soldering the power management PCB.
-				\item[$\bullet$\hspace*{0.5cm}] Regularly liaised with engineers from different disciplines to check compatibility.
-				\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
-				\item[$\bullet$\hspace*{0.5cm}] Managed my time effectively to balance commitments to University and Avalon.
-			\end{itemize}		
-		}
+			{2021-2022}
+			{RF Test Engineer}
+			{\href{https://Curvalux.com}{Curvalux}}
+			{	
+				\begin{itemize}
+					\item[$\bullet$\hspace*{0.5cm}] Translated proof of concept MATLAB code for phase tapering/beam steering a phased array antenna into working code on early prototype hardware.
+					\item[$\bullet$\hspace*{0.5cm}] Developed necessary python libraries to control rotators, switches, keysight VNAs and beamforming ICs for automating radiation pattern measurements in a custom anechoic chamber.
+					\item[$\bullet$\hspace*{0.5cm}] Professionally collaborated and documented repositories using gitlab, jira, confluence and slack.
+				\end{itemize}
+			}
 		\entry
-		{2018-2019}
-		{Design Project}
-		{\href{https://www.sheffield.ac.uk/engineering/study/global-engineering-challenge}{Global Engineering Challenge}}
-		{
-			\begin{itemize}
-				\item[$\bullet$\hspace*{0.5cm}] Tasked with designing mobile retina scanners to diagnose diseases in Kibera.
-				\item[$\bullet$\hspace*{0.5cm}] Designed a program capable of recognising diseases based on symptoms in people's retina.
-				\item[$\bullet$\hspace*{0.5cm}] Pitched the idea in front of a crowd of 30+ people, receiving questions for 10 minutes.
-			\end{itemize}	
-		}	
-\end{entrylist}
+			{2019-2020}
+			{Research \& Development Engineer}
+			{\href{https://www.huawei.com/uk/contact-us}{Huawei}}
+			{
+				\begin{itemize}
+					\item[$\bullet$\hspace*{0.5cm}] Analysing reliability of devices with PAM4 / NRZ inspection, shear testing, electroluminescence inspection.
+					\item[$\bullet$\hspace*{0.5cm}] Built a standalone program with PyQt to automatically produce failure analysis reports from data gathered by lab technicians, saving countless engineering hours on a repetitive manual task.
+					\item[$\bullet$\hspace*{0.5cm}] Developed a python library to communicate with a TEC controller over the serial protocol.
+					\item[$\bullet$\hspace*{0.5cm}] Presented weekly meetings to inform senior engineers of device failures and reliability.
+				\end{itemize}
+			}
+			\entry
+			{2018-2019}
+			{Hardware Engineer}
+			{\href{https://avalonrov.wixsite.com/avalonrov}{Avalon}}
+			{
+				\begin{itemize}
+					\item[$\bullet$\hspace*{0.5cm}] Tasked with designing and soldering the power management PCB for an underwater ROV
+					\item[$\bullet$\hspace*{0.5cm}] Had meetings with suppliers to discuss partnership/sponserships for the competition.
+					\item[$\bullet$\hspace*{0.5cm}] Regularly liaised with engineers from different disciplines to check compatibility.
+					\item[$\bullet$\hspace*{0.5cm}] Managed my time effectively to balance commitments to University and Avalon.
+				\end{itemize}		
+			}
+			\entry
+			{2018-2019}
+			{Design Project}
+			{\href{https://www.sheffield.ac.uk/engineering/study/global-engineering-challenge}{Global Engineering Challenge}}
+			{
+				\begin{itemize}
+					\item[$\bullet$\hspace*{0.5cm}] Tasked with diagnosing diseases in Kibera, exploratory research led to designing mobile retina scanners. 
+					\item[$\bullet$\hspace*{0.5cm}] Used TensorFlow and an NHS dataset to train a model to determine diseases based on symptoms visible in retinas.
+					\item[$\bullet$\hspace*{0.5cm}] Pitched the proof of concept in front of a crowd of 30+ people, receiving questions for 10 minutes.
+				\end{itemize}	
+			}	
+	\end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION, SKILLS AND TECHNOLOGIES
-%----------------------------------------------------------------------------------------
-\begin{minipage}[t]{0.40\textwidth}% 40% of the page width for the introduction text
-	\cvsect{References}
+	%----------------------------------------------------------------------------------------
+	%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+	%----------------------------------------------------------------------------------------
+	\begin{minipage}[t]{0.40\textwidth}% 40% of the page width for the introduction text
+		\cvsect{References}
 
-	% \vspace{0.1cm} % Required for vertically aligning minipages
-	\halfentry
-		{Jason Hanson}
-		{Princial RF Engineer}
-		{
-			\hspace*{0.5cm}jason.hansonu@curvalux.co.uk\newline
-			\hspace*{0.5cm}+44 (0)7799 036 362\newline
-		}
-	\halfentry
-		{Xiaoli Chu}
-		{Ph.D Wireless Communications}
-		{
-			\hspace*{0.5cm}x.chu@sheffield.ac.uk\newline
-			\hspace*{0.5cm}+44 (0)1142 255 903\newline\newline
-		}
-	\halfentry
-		{Lu Zhang}
-		{Senior Reliability Engineer}
-		{	
-			\hspace*{0.5cm}luzhang1@huawei.com\newline
-			\hspace*{0.5cm}+44 (0)7881 255 334\newline
-		}
+		% \vspace{0.1cm} % Required for vertically aligning minipages
+		\halfentry
+			{Jason Hanson}
+			{Princial RF Engineer}
+			{
+				\hspace*{0.5cm}jason.hansonu@curvalux.co.uk\newline
+				\hspace*{0.5cm}+44 (0)7799 036 362\newline
+			}
+		\halfentry
+			{Xiaoli Chu}
+			{Ph.D Wireless Communications}
+			{
+				\hspace*{0.5cm}x.chu@sheffield.ac.uk\newline
+				\hspace*{0.5cm}+44 (0)1142 255 903\newline\newline
+			}
+		\halfentry
+			{Lu Zhang}
+			{Senior Reliability Engineer}
+			{	
+				\hspace*{0.5cm}luzhang1@huawei.com\newline
+				\hspace*{0.5cm}+44 (0)7881 255 334\newline
+			}
 
-	
-\end{minipage}
-\hspace*{0.5cm}
-\begin{minipage}[t]{0.57\textwidth}
-	\cvsect{Education}
+		
+	\end{minipage}
+	\hspace*{0.5cm}
+	\begin{minipage}[t]{0.57\textwidth}
+		\cvsect{Education}
 
-	% \vspace{0.1cm} % Required for vertically aligning minipages
-	\halfentrydate
-		{2017-2021}
-		{Bachelor of Engineering}
-		{University of Sheffield}
-		{
-			\hspace*{0.5cm}Electronic Engineering:\hfill1st\newline\newline
-		}
-	\halfentrydate
-		{2015-2017}
-		{A-Levels}
-		{Dunraven}
-		{
-			\hspace*{0.5cm}Mathematics\hfill B\newline
-			\hspace*{0.5cm}Physics\hfill B\newline
-			\hspace*{0.5cm}Computing\hfill B\newline
-		}
-	\halfentrydate
-		{2010-2015}
-		{GCSEs (11 Qualifications Passed)}
-		{Harris Academy}
-		{
-			\hspace*{0.5cm}Mathematics\hfill A\newline
-			\hspace*{0.5cm}Science\hfill A\newline
-			\hspace*{0.5cm}English\hfill B\newline
-		}
-\end{minipage}%
+		% \vspace{0.1cm} % Required for vertically aligning minipages
+		\halfentrydate
+			{2017-2021}
+			{Bachelor of Engineering}
+			{University of Sheffield}
+			{
+				\hspace*{0.5cm}Electronic Engineering:\hfill1st\newline\newline
+			}
+		\halfentrydate
+			{2015-2017}
+			{A-Levels}
+			{Dunraven}
+			{
+				\hspace*{0.5cm}Mathematics\hfill B\newline
+				\hspace*{0.5cm}Physics\hfill B\newline
+				\hspace*{0.5cm}Computing\hfill B\newline
+			}
+		\halfentrydate
+			{2010-2015}
+			{GCSEs (11 Qualifications Passed)}
+			{Harris Academy}
+			{
+				\hspace*{0.5cm}Mathematics\hfill A\newline
+				\hspace*{0.5cm}Science\hfill A\newline
+				\hspace*{0.5cm}English\hfill B\newline
+			}
+	\end{minipage}%
 
-\end{document}
+	\end{document}
