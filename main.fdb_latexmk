@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1663595569 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1663595570
+["pdflatex"] 1663595569 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1663595598
   "/etc/texmf/web2c/texmf.cnf" 1638472594 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/benjamin/Documents/CV/main.aux" 1663595570 2780 fab0e85d101aec04e3426eca13591862 ""
   "/home/benjamin/Documents/CV/main.tex" 1663595569 8007 dc97f5aeb09eb2e87efe99ac548447dc ""
@@ -192,9 +192,9 @@
   "main.out" 1663595569 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1663595569 8007 dc97f5aeb09eb2e87efe99ac548447dc ""
   (generated)
-  "/home/benjamin/Documents/CV/main.log"
-  "main.out"
+  "main.pdf"
   "main.aux"
   "main.log"
+  "/home/benjamin/Documents/CV/main.log"
   "/home/benjamin/Documents/CV/main.pdf"
-  "main.pdf"
+  "main.out"
