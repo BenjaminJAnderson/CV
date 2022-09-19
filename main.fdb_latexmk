@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1663595569 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1663595598
+["pdflatex"] 1663596131 "/home/benjamin/Documents/CV/main.tex" "/home/benjamin/Documents/CV/main.pdf" "main" 1663596131
   "/etc/texmf/web2c/texmf.cnf" 1638472594 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/benjamin/Documents/CV/main.aux" 1663595570 2780 fab0e85d101aec04e3426eca13591862 ""
-  "/home/benjamin/Documents/CV/main.tex" 1663595569 8007 dc97f5aeb09eb2e87efe99ac548447dc ""
+  "/home/benjamin/Documents/CV/main.aux" 1663596131 3052 ec1f4502908259301ee9521844779d82 ""
+  "/home/benjamin/Documents/CV/main.tex" 1663596130 8031 e97026d0285464560cf35836bc5b0b24 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -188,13 +188,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1646531334 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1646531353 8255642 0a12622f474e4882cd5953e9b3391acd ""
   "developercv.cls" 1662143018 6679 d5bc6e4e49d6f2778a13e2912ca773d6 ""
-  "main.aux" 1663595570 2780 fab0e85d101aec04e3426eca13591862 "pdflatex"
-  "main.out" 1663595569 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1663595569 8007 dc97f5aeb09eb2e87efe99ac548447dc ""
+  "main.aux" 1663596131 3052 ec1f4502908259301ee9521844779d82 "pdflatex"
+  "main.out" 1663596131 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1663596130 8031 e97026d0285464560cf35836bc5b0b24 ""
   (generated)
-  "main.pdf"
-  "main.aux"
   "main.log"
   "/home/benjamin/Documents/CV/main.log"
   "/home/benjamin/Documents/CV/main.pdf"
   "main.out"
+  "main.pdf"
+  "main.aux"
