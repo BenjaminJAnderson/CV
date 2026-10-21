@@ -24,6 +24,14 @@ sudo pacman -S --needed texlive-basic texlive-latex texlive-latexrecommended \
 
 `texlive-fontsextra` provides the Raleway and FontAwesome packages. `texlive-fontsrecommended` provides the vector CM-Super typewriter font.
 
+## Editing with VS Code
+
+Install the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension and open this directory as the VS Code workspace.
+
+The repository includes `.vscode/settings.json`, which selects a `latexmk` + pdfLaTeX recipe that writes `BenjaminAnderson-CV.pdf`. Save `main.tex` to rebuild, or run **LaTeX Workshop: Build LaTeX project** from the command palette. Preview with **LaTeX Workshop: View LaTeX PDF**.
+
+`main.tex` also contains `% !TEX program = pdflatex`, and `.latexmkrc` forces PDF mode. Do not use a LuaLaTeX or DVI recipe: this CV relies on pdfLaTeX-specific font setup, and `dvilualatex` fails while loading Raleway with `luaotfload`/`fontspec` errors.
+
 ## Editing content
 
 Edit `main.tex` for all CV content. Leave the surrounding macros in place:
