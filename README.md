@@ -9,6 +9,10 @@ LaTeX source for Benjamin Anderson's CV. The document is a single A4 page.
 | `main.tex` | CV content: contact details, projects, experience, references, and education. |
 | `developercv.cls` | Local LaTeX class: page layout, fonts, colours, section headings, and entry macros. |
 | `BenjaminAnderson-CV.pdf` | Latest rendered CV. |
+| `cv.md` | Generated terminal-friendly Markdown for engiebenji.com. |
+| `scripts/latex_to_markdown.py` | Converts `main.tex` into `cv.md`. |
+| `scripts/test_latex_to_markdown.py` | Tests for the converter. |
+| `HANDOVER.md` | Integration brief for the engiebenji.com project. |
 | `Resources/` | Archived copies of previously rendered CVs. |
 | `main.pdf` | Older rendered copy, not used by the current build. |
 
@@ -45,6 +49,25 @@ Edit `main.tex` for all CV content. Leave the surrounding macros in place:
 Text is written in LaTeX, so escape special characters such as `&`, `%`, `$`, `#`, and `_`. Use `\&` for an ampersand.
 
 Edit `developercv.cls` only when changing layout or styling. The `lining` option on the `raleway` package keeps numbers in lining figures to match the original design.
+
+## Website CV
+
+`main.tex` remains the single source of truth. After changing the CV, regenerate the Markdown copy used by engiebenji.com:
+
+```bash
+python3 scripts/latex_to_markdown.py
+python3 scripts/test_latex_to_markdown.py
+python3 scripts/latex_to_markdown.py --check
+```
+
+The converter is CV-specific: it understands the macros in `main.tex` and
+fails loudly on anything it does not recognise. It omits the phone number and
+referee details from the public Markdown. Project links are rewritten to the
+current website routes.
+
+`cv.md` is generated and should not be edited by hand. See `HANDOVER.md` for
+the website integration instructions and the exact terminal behaviour expected
+at `/cv/`.
 
 ## Building the PDF
 
