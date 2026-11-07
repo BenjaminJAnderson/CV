@@ -1,0 +1,173 @@
+{
+  "name": "Benjamin Anderson",
+  "role": "Electronic Engineer",
+  "contact": [
+    {
+      "label": "email",
+      "value": "thebenjaminjanderson@gmail.com",
+      "href": "mailto:thebenjaminjanderson@gmail.com"
+    },
+    {
+      "label": "location",
+      "value": "London"
+    },
+    {
+      "label": "website",
+      "value": "engiebenji.com",
+      "href": "https://engiebenji.com"
+    },
+    {
+      "label": "twitter",
+      "value": "@engiebenji1999",
+      "href": "https://twitter.com/engiebenji1999"
+    },
+    {
+      "label": "github",
+      "value": "GitHub",
+      "href": "https://github.com/benjaminjanderson"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cube",
+      "description": "A handheld device comprising six OLED screens, one for each face of a cube. This project required the design of circuits for battery management and voltage regulation, 3D modelling of the frame, and efficient C code to run six screens and a six-DOF sensor from a single ESP32.",
+      "tags": [
+        "KiCad",
+        "FreeCAD",
+        "Git",
+        "Blender"
+      ],
+      "href": "/projects/cube/"
+    },
+    {
+      "title": "Orthodox",
+      "description": "A unique ortholinear keyboard. This project required rapid prototyping of custom keycaps using parametric designs, PCB coils around key switches to measure analogue key presses with an LDC chip, and a custom driver to allow seamless integration with computers.",
+      "tags": [
+        "KiCad",
+        "FreeCAD",
+        "Git",
+        "OpenSCAD"
+      ],
+      "href": "/projects/orthodox/"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2024–2026",
+      "title": "Support Host",
+      "organisation": "Caledonian Sleeper",
+      "bullets": [
+        "Managed passenger boarding, ticket checks and payments, while responding to service issues and complaints with professionalism and tact.",
+        "Developed strong interpersonal and conflict-resolution skills when dealing with difficult customers, resolving concerns and communicating service disruptions and alternative travel arrangements.",
+        "Coordinated time-critical morning operations, ensuring passengers were awake, prepared and ready to disembark on schedule, while liaising with station staff to arrange breakfast orders and food deliveries.",
+        "Responded to safety and security incidents, including medical emergencies, fire procedures and unauthorised attempts to board the train, following established procedures and contacting emergency services when required.",
+        "Maintained clear communication with the Train Manager and passengers during significant journey disruptions, helping coordinate practical solutions in challenging situations, including remote areas of Scotland."
+      ]
+    },
+    {
+      "date": "2021–2022",
+      "title": "RF Test Engineer",
+      "organisation": "Curvalux",
+      "bullets": [
+        "Used LaTeX to produce clean, well-formatted reports from data and graphs generated with Matplotlib.",
+        "Collaborated on and documented repositories using GitLab, Jira, Confluence, and Slack.",
+        "Developed Python libraries to control rotators, switches, Keysight VNAs, and beamforming ICs, automating radiation pattern measurements in a custom anechoic chamber.",
+        "Translated MATLAB algorithms for phase tapering and beam steering of a phased array antenna into working code on early prototype hardware."
+      ],
+      "organisationHref": "https://Curvalux.com"
+    },
+    {
+      "date": "2019–2020",
+      "title": "Research & Development Engineer",
+      "organisation": "Huawei",
+      "bullets": [
+        "Analysed device reliability using PAM4/NRZ inspection, shear testing, and electroluminescence inspection.",
+        "Built a standalone program with PyQt to automatically produce failure analysis reports from data gathered by lab technicians, saving countless engineering hours on a repetitive manual task.",
+        "Developed a Python library to communicate with a TEC controller over a serial protocol.",
+        "Led weekly meetings to update senior engineers on device failures and reliability."
+      ],
+      "organisationHref": "https://www.huawei.com/uk/contact-us"
+    },
+    {
+      "date": "2018–2019",
+      "title": "Hardware Engineer",
+      "organisation": "Avalon",
+      "bullets": [
+        "Designed and soldered the power management PCB for an underwater ROV.",
+        "Met with suppliers to discuss partnerships and sponsorships for the competition.",
+        "Regularly liaised with engineers from different disciplines to check compatibility.",
+        "Managed my time effectively to balance university commitments with those to Avalon."
+      ],
+      "organisationHref": "https://avalonrov.wixsite.com/avalonrov"
+    }
+  ],
+  "volunteering": [
+    {
+      "date": "1.5 months",
+      "title": "Trail Maintenance & Stonework",
+      "organisation": "Stonewalling Ticino, Switzerland",
+      "bullets": [
+        "Built traditional loose stone walls and helped create new flat land on the hilly terrain in Lavizzara, designed to support vehicle access for the local area.",
+        "Travelled by helicopter to work at altitude and cleared overgrown trails with a team using strimmers."
+      ]
+    },
+    {
+      "date": "2 months",
+      "title": "Restoration Volunteer",
+      "organisation": "Barnton Bunker, Edinburgh",
+      "bullets": [
+        "Carried out renovation work on a Cold War-era nuclear bunker, including cleaning, wall preparation, plastering, wall cladding, and installing electrical conduit."
+      ]
+    },
+    {
+      "date": "1.5 months",
+      "title": "Land & Animal Care",
+      "organisation": "Western Ghats, near Madikeri, India",
+      "bullets": [
+        "Maintained rural land, carried out household repairs, and managed the welfare of dogs and livestock.",
+        "Learned Buddhist philosophy, meditation, and breathing techniques from an elderly Buddhist practitioner."
+      ]
+    },
+    {
+      "date": "2 months",
+      "title": "Temple Maintenance & Community Volunteering",
+      "organisation": "Kongoji Zen Temple, Minamiashigara, Japan",
+      "bullets": [
+        "Maintained temple grounds and Zen gardens through weeding, watering, and gravel raking, helping preserve the temple's environment.",
+        "Took part in daily 5:00 am Zen meditation and morning temple rituals, including ringing the temple bell.",
+        "Assisted with preparations for the Tanabata Star Festival, supporting the organisation of a traditional Japanese cultural event."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "date": "2017–2021",
+      "title": "Bachelor of Engineering",
+      "institution": "University of Sheffield",
+      "details": [
+        "Electronic Engineering — 1st"
+      ]
+    },
+    {
+      "date": "2015–2017",
+      "title": "A-levels",
+      "institution": "Dunraven",
+      "details": [
+        "Mathematics — B",
+        "Physics — B",
+        "Computing — B"
+      ]
+    },
+    {
+      "date": "2010–2015",
+      "title": "GCSEs (11 qualifications passed)",
+      "institution": "Harris Academy",
+      "details": [
+        "Mathematics — A",
+        "Science — A",
+        "English — B"
+      ]
+    }
+  ],
+  "references": "Available on request."
+}

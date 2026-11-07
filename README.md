@@ -1,6 +1,10 @@
 # CV
 
-LaTeX source for Benjamin Anderson's CV. The document is a single A4 page.
+LaTeX source and supporting scripts for Benjamin Anderson's CV. The document is built with pdfLaTeX from a single source file, which also generates Markdown and JSON copies for the engiebenji.com website.
+
+## Overview
+
+`main.tex` is the single source of truth for the CV content. Layout and styling live separately in `developercv.cls`, which defines the page geometry, fonts, colours, section headings and entry macros. The Python scripts under `scripts/` convert the LaTeX source into the website's Markdown and JSON formats, so the website build does not require a TeX installation.
 
 ## Files
 
@@ -10,8 +14,11 @@ LaTeX source for Benjamin Anderson's CV. The document is a single A4 page.
 | `developercv.cls` | Local LaTeX class: page layout, fonts, colours, section headings, and entry macros. |
 | `BenjaminAnderson-CV.pdf` | Latest rendered CV. |
 | `cv.md` | Generated terminal-friendly Markdown for engiebenji.com. |
+| `cv.json` | Generated structured CV data for the engiebenji.com `/cv/` page. |
 | `scripts/latex_to_markdown.py` | Converts `main.tex` into `cv.md`. |
-| `scripts/test_latex_to_markdown.py` | Tests for the converter. |
+| `scripts/test_latex_to_markdown.py` | Tests for the Markdown converter. |
+| `scripts/latex_to_json.py` | Converts `main.tex` into structured `cv.json`. |
+| `scripts/test_latex_to_json.py` | Tests for the JSON converter. |
 | `HANDOVER.md` | Integration brief for the engiebenji.com project. |
 | `Resources/` | Archived copies of previously rendered CVs. |
 | `main.pdf` | Older rendered copy, not used by the current build. |
@@ -52,7 +59,24 @@ Edit `developercv.cls` only when changing layout or styling. The `lining` option
 
 ## Website CV
 
-`main.tex` remains the single source of truth. After changing the CV, regenerate the Markdown copy used by engiebenji.com:
+`main.tex` remains the single source of truth. The engiebenji.com `/cv/` page
+uses the structured `cv.json` artefact:
+
+```bash
+python3 scripts/latex_to_json.py
+python3 scripts/test_latex_to_json.py
+python3 scripts/latex_to_json.py --check
+```
+
+Copy the generated `cv.json` into the website repository at
+`src/data/cv.json`. The website build does not need TeX installed.
+
+The converter is CV-specific: it understands the macros in `main.tex` and
+fails loudly on anything it does not recognise. It omits the phone number and
+referee details from public output. Project links are rewritten to the current
+website routes.
+
+The older Markdown output remains available for reference:
 
 ```bash
 python3 scripts/latex_to_markdown.py
@@ -60,14 +84,7 @@ python3 scripts/test_latex_to_markdown.py
 python3 scripts/latex_to_markdown.py --check
 ```
 
-The converter is CV-specific: it understands the macros in `main.tex` and
-fails loudly on anything it does not recognise. It omits the phone number and
-referee details from the public Markdown. Project links are rewritten to the
-current website routes.
-
-`cv.md` is generated and should not be edited by hand. See `HANDOVER.md` for
-the website integration instructions and the exact terminal behaviour expected
-at `/cv/`.
+`cv.md` and `cv.json` are generated and should not be edited by hand.
 
 ## Building the PDF
 
@@ -97,7 +114,7 @@ latexmk -c -jobname=BenjaminAnderson-CV
 
 ## Checking the result
 
-Confirm the PDF is one page and A4:
+Confirm the PDF page count and page size:
 
 ```bash
 pdfinfo BenjaminAnderson-CV.pdf | grep -E 'Pages|Page size'
