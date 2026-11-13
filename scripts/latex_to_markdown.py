@@ -33,6 +33,7 @@ PROJECT_URL_REWRITES = {
     "https://engiebenji.com/2022/09/18/ORTHODOX/": "/projects/orthodox/",
     "https://engiebenji.com/projects/cube/": "/projects/cube/",
     "https://engiebenji.com/projects/orthodox/": "/projects/orthodox/",
+    "https://engiebenji.com/projects/avalanche/": "/projects/avalanche/",
 }
 
 # Layout commands that may appear in content but should not survive into the
