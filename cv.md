@@ -24,6 +24,14 @@ A unique ortholinear keyboard. This project required rapid prototyping of custom
 
 [Project page](/projects/orthodox/)
 
+### Avalanche
+
+Modelled a near-infrared InGaAs/InAlAs avalanche photodiode in C++, using a random path length model to select layer widths against responsivity, noise, breakdown and capacitance specifications.
+
+`C++` · `MATLAB` · `LaTeX`
+
+[Project page](/projects/avalanche/)
+
 ## Experience
 
 ### 2024–2026 · Support Host

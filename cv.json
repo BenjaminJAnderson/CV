@@ -49,6 +49,16 @@
         "OpenSCAD"
       ],
       "href": "/projects/orthodox/"
+    },
+    {
+      "title": "Avalanche",
+      "description": "Modelled a near-infrared InGaAs/InAlAs avalanche photodiode in C++, using a random path length model to select layer widths against responsivity, noise, breakdown and capacitance specifications.",
+      "tags": [
+        "C++",
+        "MATLAB",
+        "LaTeX"
+      ],
+      "href": "/projects/avalanche/"
     }
   ],
   "experience": [

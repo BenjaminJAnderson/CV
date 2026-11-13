@@ -30,11 +30,16 @@ class JsonConverterTests(unittest.TestCase):
 
     def test_projects_are_structured_and_rewritten(self) -> None:
         projects = self.data["projects"]
-        self.assertEqual([project["title"] for project in projects], ["Cube", "Orthodox"])
+        self.assertEqual(
+            [project["title"] for project in projects],
+            ["Cube", "Orthodox", "Avalanche"],
+        )
         self.assertEqual(projects[0]["href"], "/projects/cube/")
         self.assertEqual(projects[1]["href"], "/projects/orthodox/")
+        self.assertEqual(projects[2]["href"], "/projects/avalanche/")
         self.assertIn("KiCad", projects[0]["tags"])
         self.assertIn("A handheld device", projects[0]["description"])
+        self.assertIn("C++", projects[2]["tags"])
 
     def test_experience_and_volunteering_are_present(self) -> None:
         experience = self.data["experience"]

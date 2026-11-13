@@ -34,6 +34,7 @@ class ConverterTests(unittest.TestCase):
     def test_project_links_are_rewritten(self) -> None:
         self.assertIn("[Project page](/projects/cube/)", self.markdown)
         self.assertIn("[Project page](/projects/orthodox/)", self.markdown)
+        self.assertIn("[Project page](/projects/avalanche/)", self.markdown)
         self.assertNotIn("/2022/09/18/CUBE/", self.markdown)
         self.assertNotIn("/2022/09/18/ORTHODOX/", self.markdown)
 
