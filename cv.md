@@ -44,7 +44,7 @@ Modelled a near-infrared InGaAs/InAlAs avalanche photodiode in C++, using a rand
 - Responded to safety and security incidents, including medical emergencies, fire procedures and unauthorised attempts to board the train, following established procedures and contacting emergency services when required.
 - Maintained clear communication with the Train Manager and passengers during significant journey disruptions, helping coordinate practical solutions in challenging situations, including remote areas of Scotland.
 
-### 2021–2022 · RF Test Engineer
+### 2021–2023 · RF Test Engineer
 
 [**Curvalux**](https://Curvalux.com)
 
